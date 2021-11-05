@@ -8,32 +8,32 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="pollub.pam.basiclab.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/firstFragmentLabel"
         tools:layout="@layout/fragment_first">
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
         <action
-            android:id="@+id/action_FirstFragment_to_ThirdFragment2"
+            android:id="@+id/action_FirstFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
         android:name="pollub.pam.basiclab.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/secondFragmentLabel"
         tools:layout="@layout/fragment_second">
         <action
             android:id="@+id/action_SecondFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment" />
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment2"
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="pollub.pam.basiclab.ThirdFragment"
-        android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
+        android:label="@string/thirdFragmentLabel"
+        tools:layout="@layout/fragment_first">
         <action
             android:id="@+id/action_ThirdFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />

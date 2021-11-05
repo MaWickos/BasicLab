@@ -23,7 +23,8 @@ public class ThirdFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.button_third).setOnClickListener(new View.OnClickListener() {
+        // Przejscie do (1) pierwszego fragmentu
+        view.findViewById(R.id.buttonNextFirstFragment).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(ThirdFragment.this)
@@ -31,7 +32,8 @@ public class ThirdFragment extends Fragment {
             }
         });
 
-        view.findViewById(R.id.button_third_previous).setOnClickListener(new View.OnClickListener() {
+        // Przejscie do (2) drugiego fragmentu
+        view.findViewById(R.id.buttonPreviousSecondFragment).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(ThirdFragment.this)

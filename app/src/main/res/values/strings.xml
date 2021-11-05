@@ -1,14 +1,32 @@
 <resources>
-    <string name="app_name">BasicLab</string>
+    <string name="app_name">PamLab05 - BasicLab</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Stringi powitalne na fragmentach   -->
+    <string name="firstFragmentHello"> Litwo! Ojczyzno moja! Ty jesteś jak zdrowie, </string>
+    <string name="secondFragmentHello"> Ile cię trzeba cenić, ten tylko się dowie,</string>
+    <string name="thirdFragmentHello"> Kto cię stracił. Dziś piękność twą w całej ozdobie \nWidzę i opisuję, bo tęsknię po tobie" </string>
+
+    <!-- Nazwy przycisków   -->
+    <string name="next">Następny</string>
+    <string name="previous">Poprzedni</string>
+
+    <!--  Labelki fragmentów  -->
+    <string name="firstFragmentLabel"> Inwokacja (1) </string>
+    <string name="secondFragmentLabel"> Inwokacja (2) </string>
+    <string name="thirdFragmentLabel"> Inwokacja (3) </string>
+    
+    <!-- Elementy menu -->
+    <string name="menuSettings"> Ustawienia </string>
+    <string name="menuAbout"> O aplikacji </string>
+    <string name="menuAuthor"> Autor </string>
+    
+    <!-- Snacbary po kliknięciu menu   -->
+    <string name="snackbarSettings"> Ustawienia aplikacji </string>
+    <string name="snackbarAbout"> Aplikacja stworzona na laboratorium PAM \n4.11.2021, Lab05 </string>
+    <string name="snackbarAuthor"> Maciej Wicha, IIST 7.7/13, czwartek 18.00 </string>
+
+    <!-- Floating Message   -->
+    <string name="floatingButtonMessage"> Cześć! </string>
 </resources>
